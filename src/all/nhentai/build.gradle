@@ -1,0 +1,12 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+ext {
+    extName = 'NHentai'
+    pkgNameSuffix = 'all.nhentai'
+    extClass = '.NHFactory'
+    extVersionCode = 36
+    isNsfw = true
+}
+
+apply from: "$rootDir/common.gradle"
